@@ -2,8 +2,23 @@ function predictName(response) {
   console.log(response.data);
   let age = document.querySelector("#age-returned");
   let count = document.querySelector("#count");
+  let description = document.querySelector("#description");
   age.innerHTML = response.data.age;
   count.innerHTML = response.data.count;
+
+  let numericAge = parseInt(response.data.age, 10);
+
+  if (numericAge < 19) {
+    description.innerHTML = "Seems like you still in your early teens!!";
+  } else if (numericAge <= 25) {
+    description.innerHTML = "Someone's in their young adult era!";
+  } else if (numericAge <= 40) {
+    description.innerHTML = "You in your adult era!!";
+  } else if (numericAge <= 50) {
+    description.innerHTML = "Time to enjoy your life!!";
+  } else {
+    description.innerHTML = "You're in your golden years!!";
+  }
 }
 
 function searchName(name) {
