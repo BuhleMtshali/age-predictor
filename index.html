@@ -6,15 +6,25 @@
     <title>Age predictor</title>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <form id="form">
-      <input type="text" id="name-input" />
-      <input type="submit" id="submit" />
-    </form>
-    <h2>Name: <span id="name"></span></h2>
-    <h2>Count: <span id="count"></span></h2>
-    <h2>Age: <span id="age-returned"></span></h2>
+    <div class="container">
+      <div class="content">
+        <form id="form">
+          <input type="text" id="name-input" />
+          <input type="submit" id="submit" />
+        </form>
+        <h2>Name: <span id="name"></span></h2>
+        <h2>Count: <span id="count"></span></h2>
+        <h2>Age: <span id="age-returned"></span></h2>
+      </div>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>

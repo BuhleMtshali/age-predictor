@@ -1,0 +1,12 @@
+body {
+  font-family: "Inter Tight", sans-serif;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.content {
+  display: block;
+}
