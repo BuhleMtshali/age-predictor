@@ -38,3 +38,17 @@ function handleFormSubmission(event) {
 
 let submitForm = document.querySelector("#form");
 submitForm.addEventListener("submit", handleFormSubmission);
+
+function resetField() {
+  let age = document.querySelector("#age-returned");
+  let count = document.querySelector("#count");
+  let description = document.querySelector("#description");
+  let nameElement = document.querySelector("#name");
+  age.innerHTML = "";
+  count.innerHTML = "";
+  description.innerHTML = "";
+  nameElement.innerHTML = "";
+}
+
+let resetButton = document.querySelector("#reset");
+resetButton.addEventListener("click", resetField);

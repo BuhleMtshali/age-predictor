@@ -38,8 +38,18 @@ input {
   color: #344e41;
 }
 h2 {
-  color: #780000;
+  color: #e36414;
 }
 span {
   color: #344e41;
+}
+h1 {
+  margin: 15px;
+  color: #e36414;
+}
+p {
+  margin: 15px;
+  color: #780000;
+  font-weight: 600;
+  font-size: 17px;
 }
