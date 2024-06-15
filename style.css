@@ -26,16 +26,24 @@ input {
   font-size: 16px;
   color: #344e41;
 }
-#submit {
+#submit,
+#reset {
   font-size: 16px;
   color: #dad7cd;
   background-color: #344e41;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  padding: 15px 25px;
+  border-radius: 18px;
+  border: 3px solid #344e41;
 }
 #submit:hover {
   background-color: #dad7cd;
   color: #344e41;
+}
+#reset:hover {
+  background-color: #e36414;
+  color: #dad7cd;
 }
 h2 {
   color: #e36414;
