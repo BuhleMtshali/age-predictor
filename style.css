@@ -1,12 +1,19 @@
 body {
   font-family: "Inter Tight", sans-serif;
   margin: 0;
+  background-color: #dad7cd;
 }
 
 .container {
   display: flex;
   justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 .content {
   display: block;
+  padding-top: 40px;
+}
+input {
+  padding: 10px 15px;
 }
