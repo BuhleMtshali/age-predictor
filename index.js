@@ -1,5 +1,9 @@
 function predictName(response) {
   console.log(response.data);
+  let age = document.querySelector("#age-returned");
+  let count = document.querySelector("#count");
+  age.innerHTML = response.data.age;
+  count.innerHTML = response.data.count;
 }
 
 function searchName(name) {
@@ -14,6 +18,7 @@ function handleFormSubmission(event) {
   let nameElement = document.querySelector("#name");
   nameElement.innerHTML = nameInput.value;
   searchName(nameInput.value);
+  nameInput.value = "";
 }
 
 let submitForm = document.querySelector("#form");
