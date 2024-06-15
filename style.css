@@ -15,5 +15,25 @@ body {
   padding-top: 40px;
 }
 input {
-  padding: 10px 15px;
+  padding: 15px 25px;
+  border-radius: 18px;
+  border: 3px solid #344e41;
+}
+*:focus {
+  outline: none;
+}
+::placeholder {
+  font-size: 16px;
+  color: #344e41;
+}
+#submit {
+  font-size: 16px;
+  color: #dad7cd;
+  background-color: #344e41;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+#submit:hover {
+  background-color: #dad7cd;
+  color: #344e41;
 }
