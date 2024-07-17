@@ -51,4 +51,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-Feel free to customize the "Author" section with your details. This README provides an overview of your app, its features, setup instructions, and licensing information. Adjust it further as needed for your project specifics.
+
